@@ -70,9 +70,12 @@
   -webkit-text-fill-color: transparent;
 }
 
- #header{
-  background: -webkit-linear-gradient(#e66465, #9198e5);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
- 
+#header::after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+  border:  solid rgb(238, 226, 138);
+  width: 100px;
+  height: 1px;
 }
