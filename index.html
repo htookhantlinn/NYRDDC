@@ -472,8 +472,8 @@
     <section id="welcomeMessageSection" class="mt-4 ">
         <div class="container ">
             <div class="row  ">
-                <div class="col-lg-5">
-                    <div class="card text-left">
+                <div class="col-lg-4 ">
+                    <div class="card text-left shadow">
                         <div class=" card-header">
                             <h3 id="welcomeMessage">Welcome Message</h3>
                         </div>
@@ -500,10 +500,57 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-7">
-                    <div class="container mt-3 overflow-hidden">
-                        <img src="./img/university.jpg" class="shadow" style="width: 700px; height: 350px;"/>
+                <div class="col-lg-8 d-flex justify-content-center align-items-center  ">
+
+                    <div id="welcomeMessageCarousel" class="carousel slide " data-bs-ride="carousel">
+                        <div class=" d-none d-md-block">
+                            <div class="carousel-indicators">
+                                <button id="custom-indicator" type="button" data-bs-target="#welcomeMessageCarousel"
+                                    data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" s>
+
+                                </button>
+                                <button id="custom-indicator" type="button" data-bs-target="#welcomeMessageCarousel"
+                                    data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button id="custom-indicator" type="button" data-bs-target="#welcomeMessageCarousel"
+                                    data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                        </div>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active " data-bs-interval="3000">
+                                <img src="./img/uni-1.jpg" class=" w-100  d-block" />
+
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="./img/uni-2.jpg" class=" w-100 d-block" />
+
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="./img/uni-3.jpg" class=" w-100 d-block" />
+
+                            </div>
+                        </div>
+
+
+
+                        <button class="carousel-control-next   " data-bs-target="#welcomeMessageCarousel"
+                            data-bs-slide="next">
+                            <div class="slab-series-next">
+                                <span class=" carousel-control-next-icon ">
+                                </span>
+
+                            </div>
+                        </button>
+                        <button class="carousel-control-prev   " data-bs-target="#welcomeMessageCarousel"
+                            data-bs-slide="prev">
+                            <div class="slab-series-prev">
+                                <span class=" carousel-control-prev-icon ">
+                                </span>
+
+                            </div>
+                        </button>
                     </div>
+
                 </div>
             </div>
         </div>
