@@ -59,3 +59,20 @@
   width: 100px;
   height: 1px;
 }
+
+.programsCard {
+  background-color: rgb(238, 226, 138);
+}
+
+.programsCard .card-title {
+  background: -webkit-linear-gradient(#e66465, #9198e5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+ #header{
+  background: -webkit-linear-gradient(#e66465, #9198e5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+}
